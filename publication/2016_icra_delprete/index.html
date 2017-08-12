@@ -41,11 +41,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://andreadelprete.github.io/publication/2017_iros_tournois/">
+  <link rel="canonical" href="https://andreadelprete.github.io/publication/2016_icra_delprete/">
 
   
 
-  <title>Online Payload Identification for Quadruped Robots | Andrea Del Prete</title>
+  <title>Fast Algorithms to Test Robust Static Equilibrium for Legged Robots | Andrea Del Prete</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -118,10 +118,10 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   <div class="container pub-title" align="center"> 
-    <h1 itemprop="name">Online Payload Identification for Quadruped Robots</h1>
+    <h1 itemprop="name">Fast Algorithms to Test Robust Static Equilibrium for Legged Robots</h1>
     <span class="pub-authors" itemprop="author">
       
-      Guido Tournois, Michele Focchi, Andrea Del Prete, Romeo Orsolino, Darwin Caldwell, Claudio Semini
+      Andrea Del Prete, Steve Tonneau, Nicolas Mansard
       
     </span>
     <span class="pull-right">
@@ -130,35 +130,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_iros_tournois%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_icra_delprete%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Online%20Payload%20Identification%20for%20Quadruped%20Robots&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_iros_tournois%2f"
+         href="https://twitter.com/intent/tweet?text=Fast%20Algorithms%20to%20Test%20Robust%20Static%20Equilibrium%20for%20Legged%20Robots&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_icra_delprete%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_iros_tournois%2f&amp;title=Online%20Payload%20Identification%20for%20Quadruped%20Robots"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_icra_delprete%2f&amp;title=Fast%20Algorithms%20to%20Test%20Robust%20Static%20Equilibrium%20for%20Legged%20Robots"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_iros_tournois%2f&amp;title=Online%20Payload%20Identification%20for%20Quadruped%20Robots"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_icra_delprete%2f&amp;title=Fast%20Algorithms%20to%20Test%20Robust%20Static%20Equilibrium%20for%20Legged%20Robots"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Online%20Payload%20Identification%20for%20Quadruped%20Robots&amp;body=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_iros_tournois%2f">
+         href="mailto:?subject=Fast%20Algorithms%20to%20Test%20Robust%20Static%20Equilibrium%20for%20Legged%20Robots&amp;body=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_icra_delprete%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -171,8 +171,8 @@
   
     
 <div class="article-header">
-  <img src="/img/hyq_backpack.jpg" class="article-banner" itemprop="image">
-   <span class="article-header-caption">Picture of IIT’s 80 kg HyQ loaded with a 10 kg backpack. The names of the links are shown on the picture itself together with the joints definitions: Hip Adduction-abduction (HAA), Hip Flexion-Extension (HFE), Knee Flexion-Extension (KFE).</span>
+  <img src="/img/2016_icra_delprete.jpg" class="article-banner" itemprop="image">
+   <span class="article-header-caption">Inner and outer approximations of the support region.</span>
 </div>
 
 
@@ -183,7 +183,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">The identification of inertial parameters is crucial to achieve high-performance model-based control of legged robots. The inertial parameters of the legs are typically not altered during expeditions and therefore are best identified offline. On the other hand, the trunk parameters depend on the modules mounted on the robot, like a motor to provide the hydraulic power, or different sets of cameras for perception. This motivates the use of recursive approaches to identify online the position of the Center of Mass (CoM) of the robot trunk, when a payload change occurs. We propose two such approaches and analyze their robustness in simulation. Furthermore, experimental trials on our 80-kg quadruped robot HyQ show the applicability of our strategies during locomotion to cope with large payload changes that would otherwise severely compromise the balance of the robot.</p>
+  <p class="pub-abstract" itemprop="text">Maintaining equilibrium is of primary importance for legged systems. It is not surprising then that static equilibrium is at the core of most control/planning algorithms for legged robots. Being able to check whether a system is in static equilibrium is thus important, and doing it efficiently is crucial. While this is straightforward for a system in contact with a flat ground only, it is not the case for arbitrary contact geometries. In this paper we propose two new techniques to test static equilibrium and we show that they are computationally faster than all other existing methods. Moreover, we address the issue of robustness to errors in the contact-force tracking, which could lead to slippage or rotation at the contacts. We extend all the discussed techniques to test for robust static equilibrium, that is the ability to maintain equilibrium while avoiding to lose contacts despite bounded force-tracking errors. Accounting for robustness does not affect the computation time of the equilibrium tests, while it qualitatively improves the contact postures generated by our reachability-based multi- contact planner.</p>
 
   
   <div class="row">
@@ -210,7 +210,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</div>
+        <div class="col-xs-12 col-sm-9"><em>IEEE International Conference on Robotics and Automation (ICRA)</em></div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -223,7 +223,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          October, 2017
+          May, 2016
         </div>
       </div>
     </div>
@@ -243,9 +243,13 @@
 
 
 
+<a class="btn btn-primary btn-outline" href="https://hal.inria.fr/hal-01201060/document">
+  PDF
+</a>
 
 
-<a class="btn btn-primary btn-outline" href="https://youtu.be/2Pnj5hJVeJM">
+
+<a class="btn btn-primary btn-outline" href="https://www.youtube.com/watch?v=ngk2dh_jzuw&amp;feature=youtu.be">
   Video
 </a>
 
@@ -266,7 +270,7 @@
 
   <div class="article-style">
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/2Pnj5hJVeJM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+  <iframe src="//www.youtube.com/embed/ngk2dh_jzuw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
  </div>
 
 </div>
@@ -277,10 +281,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://andreadelprete.github.io/publication/2017_icinco_giftsun/"><span
-      aria-hidden="true">&larr;</span> Robustness to Inertial Parameter Errors for Legged Robots Balancing on Level Ground</a></li>
-    
 
+    
+    <li class="next"><a href="https://andreadelprete.github.io/publication/2016_tro_robust_inv_dyn/">Robustness to Joint-Torque-Tracking Errors in Task-Space Inverse Dynamics <span
+      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
