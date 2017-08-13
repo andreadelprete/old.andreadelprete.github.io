@@ -41,11 +41,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://andreadelprete.github.io/publication/2016_tro_robust_inv_dyn/">
+  <link rel="canonical" href="https://andreadelprete.github.io/publication/2015_rss_delprete/">
 
   
 
-  <title>Robustness to Joint-Torque-Tracking Errors in Task-Space Inverse Dynamics | Andrea Del Prete</title>
+  <title>Addressing Constraint Robustness to Torque Errors in Task-Space Inverse Dynamics | Andrea Del Prete</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -118,7 +118,7 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   <div class="container pub-title" align="center"> 
-    <h1 itemprop="name">Robustness to Joint-Torque-Tracking Errors in Task-Space Inverse Dynamics</h1>
+    <h1 itemprop="name">Addressing Constraint Robustness to Torque Errors in Task-Space Inverse Dynamics</h1>
     <span class="pub-authors" itemprop="author">
       
       Andrea Del Prete, Nicolas Mansard
@@ -130,35 +130,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_tro_robust_inv_dyn%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2015_rss_delprete%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Robustness%20to%20Joint-Torque-Tracking%20Errors%20in%20Task-Space%20Inverse%20Dynamics&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_tro_robust_inv_dyn%2f"
+         href="https://twitter.com/intent/tweet?text=Addressing%20Constraint%20Robustness%20to%20Torque%20Errors%20in%20Task-Space%20Inverse%20Dynamics&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2015_rss_delprete%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_tro_robust_inv_dyn%2f&amp;title=Robustness%20to%20Joint-Torque-Tracking%20Errors%20in%20Task-Space%20Inverse%20Dynamics"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2015_rss_delprete%2f&amp;title=Addressing%20Constraint%20Robustness%20to%20Torque%20Errors%20in%20Task-Space%20Inverse%20Dynamics"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_tro_robust_inv_dyn%2f&amp;title=Robustness%20to%20Joint-Torque-Tracking%20Errors%20in%20Task-Space%20Inverse%20Dynamics"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2015_rss_delprete%2f&amp;title=Addressing%20Constraint%20Robustness%20to%20Torque%20Errors%20in%20Task-Space%20Inverse%20Dynamics"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Robustness%20to%20Joint-Torque-Tracking%20Errors%20in%20Task-Space%20Inverse%20Dynamics&amp;body=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_tro_robust_inv_dyn%2f">
+         href="mailto:?subject=Addressing%20Constraint%20Robustness%20to%20Torque%20Errors%20in%20Task-Space%20Inverse%20Dynamics&amp;body=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2015_rss_delprete%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -170,11 +170,6 @@
   </div>
   
     
-<div class="article-header">
-  <img src="/img/30_robots_walking.jpg" class="article-banner" itemprop="image">
-  <span class="article-header-caption">Simulation of 30 HRP-2 robots walking in the presence of uncertainties, the goal being to compare the classic TSID controller (left line, gray heads) to the proposed robust TSID controllers: stochastic (central line, green heads) and worst-case (right line, red heads). Some of the simulation results can be seen in the accompanying video.</span>
-</div>
-
 
 
 </div>
@@ -183,7 +178,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Task-Space Inverse Dynamics (TSID) is a well-known optimization-based technique for the control of highly-redundant mechanical systems, such as humanoid robots.  One of  its  main  flaws  is  that  it  does  not  take  into  account  any  of the  uncertainties  affecting  these  systems:  poor  torque  tracking, sensor noises, delays and model uncertainties. As a consequence, the  resulting  control-state  trajectories  may  be  feasible  for  the ideal  system,  but  not  for  the  real  one.  We  propose  to  improve the  robustness  of  TSID  by  modeling  uncertainties  in  the  joint torques,  either  as  Gaussian  random  variables  or  as  bounded deterministic variables. Then we try to immunize the constraints of the system to any—or at least most—of the realizations of these uncertainties.  When  the  resulting  optimization  problem  is  too computationally  expensive  for  online  control,  we  propose  ways to  approximate  it  that  lead  to  computation  times  below  1  ms. Extensive  simulations  in  a  realistic  environment  show  that  the proposed  robust  controllers  greatly  outperform  the  classic  one, even when other unmodeled uncertainties affect the system (e.g. errors in the inertial parameters, delays in the velocity estimates).</p>
+  <p class="pub-abstract" itemprop="text">Task-Space Inverse Dynamics (TSID) is a well-known optimization-based technique for the control of highly-redundant mechanical systems, such as humanoid robots. One of its main flaws is that it does not take into account any of the uncertainties affecting these systems: poor torque tracking, sensor noises, delays and model uncertainties. As a consequence, the resulting control trajectories may be feasible for the ideal system, but not for the real one. We propose to improve the robustness of TSID by modeling uncertainties in the joint torques as additive white random noise (similarly to LQG). This results in a stochastic optimization problem, in which we can maximize the probability to satisfy the inequality constraints (i.e. to be feasible). Since computing this probability is computationally expensive, we propose three ways to approximate it that are much faster to compute and that we can then use for online control (resolution time below 1 ms). Simulation results show that taking robustness into account greatly increases the chances to have feasible control trajectories (even when the uncertainties affecting the system are not the one modeled in the controller).</p>
 
   
   <div class="row">
@@ -193,8 +188,8 @@
         <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
         <div class="col-xs-12 col-sm-9">
           
-          <a href="/publication/#2">
-            Journal
+          <a href="/publication/#1">
+            Conference proceedings
           </a>
           
         </div>
@@ -210,7 +205,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9"><em>IEEE Transaction on Robotics</em></div>
+        <div class="col-xs-12 col-sm-9"><em>Robotics, Science and Systems</em></div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -223,7 +218,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          October, 2016
+          July, 2015
         </div>
       </div>
     </div>
@@ -243,15 +238,11 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://hal.archives-ouvertes.fr/hal-01241974/document">
+<a class="btn btn-primary btn-outline" href="https://hal.inria.fr/hal-01109375v2/document">
   PDF
 </a>
 
 
-
-<a class="btn btn-primary btn-outline" href="https://www.youtube.com/watch?v=pnar5WQY5Vg">
-  Video
-</a>
 
 
 
@@ -268,12 +259,7 @@
 
   <div class="space-below"></div>
 
-  <div class="article-style">
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/pnar5WQY5Vg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
-
-</div>
+  <div class="article-style"></div>
 
 </div>
 
@@ -281,12 +267,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://andreadelprete.github.io/publication/2016_icra_delprete/"><span
-      aria-hidden="true">&larr;</span> Fast Algorithms to Test Robust Static Equilibrium for Legged Robots</a></li>
+    <li class="previous"><a href="https://andreadelprete.github.io/publication/2015_icra_traversaro/"><span
+      aria-hidden="true">&larr;</span> Inertial parameters identification and joint torques estimation with proximal force/torque sensing</a></li>
     
 
     
-    <li class="next"><a href="https://andreadelprete.github.io/publication/2016_ijhr_delprete/">Implementing Torque Control with High-Ratio Gear Boxes and without Joint-Torque Sensors <span
+    <li class="next"><a href="https://andreadelprete.github.io/publication/2016_icra_delprete/">Fast Algorithms to Test Robust Static Equilibrium for Legged Robots <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

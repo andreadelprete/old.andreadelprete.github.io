@@ -47,5 +47,37 @@
 </description>
     </item>
     
+    <item>
+      <title>Addressing Constraint Robustness to Torque Errors in Task-Space Inverse Dynamics</title>
+      <link>https://andreadelprete.github.io/publication/2015_rss_delprete/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2015_rss_delprete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prioritized Optimal Control: a Hierarchical Differential Dynamic Programming approach</title>
+      <link>https://andreadelprete.github.io/publication/2015_icra_romano/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2015_icra_romano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Whole-body Model-Predictive Control applied to the HRP-2 Humanoid</title>
+      <link>https://andreadelprete.github.io/publication/2015_iros_koenemann/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2015_iros_koenemann/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
   </channel>
 </rss>

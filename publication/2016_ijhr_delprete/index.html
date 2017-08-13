@@ -41,11 +41,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://andreadelprete.github.io/publication/2016_tro_robust_inv_dyn/">
+  <link rel="canonical" href="https://andreadelprete.github.io/publication/2016_ijhr_delprete/">
 
   
 
-  <title>Robustness to Joint-Torque-Tracking Errors in Task-Space Inverse Dynamics | Andrea Del Prete</title>
+  <title>Implementing Torque Control with High-Ratio Gear Boxes and without Joint-Torque Sensors | Andrea Del Prete</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -118,10 +118,10 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   <div class="container pub-title" align="center"> 
-    <h1 itemprop="name">Robustness to Joint-Torque-Tracking Errors in Task-Space Inverse Dynamics</h1>
+    <h1 itemprop="name">Implementing Torque Control with High-Ratio Gear Boxes and without Joint-Torque Sensors</h1>
     <span class="pub-authors" itemprop="author">
       
-      Andrea Del Prete, Nicolas Mansard
+      Andrea Del Prete, Nicolas Mansard, Oscar E. Ramos, Olivier Stasse, Francesco Nori
       
     </span>
     <span class="pull-right">
@@ -130,35 +130,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_tro_robust_inv_dyn%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_ijhr_delprete%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Robustness%20to%20Joint-Torque-Tracking%20Errors%20in%20Task-Space%20Inverse%20Dynamics&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_tro_robust_inv_dyn%2f"
+         href="https://twitter.com/intent/tweet?text=Implementing%20Torque%20Control%20with%20High-Ratio%20Gear%20Boxes%20and%20without%20Joint-Torque%20Sensors&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_ijhr_delprete%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_tro_robust_inv_dyn%2f&amp;title=Robustness%20to%20Joint-Torque-Tracking%20Errors%20in%20Task-Space%20Inverse%20Dynamics"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_ijhr_delprete%2f&amp;title=Implementing%20Torque%20Control%20with%20High-Ratio%20Gear%20Boxes%20and%20without%20Joint-Torque%20Sensors"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_tro_robust_inv_dyn%2f&amp;title=Robustness%20to%20Joint-Torque-Tracking%20Errors%20in%20Task-Space%20Inverse%20Dynamics"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_ijhr_delprete%2f&amp;title=Implementing%20Torque%20Control%20with%20High-Ratio%20Gear%20Boxes%20and%20without%20Joint-Torque%20Sensors"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Robustness%20to%20Joint-Torque-Tracking%20Errors%20in%20Task-Space%20Inverse%20Dynamics&amp;body=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_tro_robust_inv_dyn%2f">
+         href="mailto:?subject=Implementing%20Torque%20Control%20with%20High-Ratio%20Gear%20Boxes%20and%20without%20Joint-Torque%20Sensors&amp;body=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2016_ijhr_delprete%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -171,8 +171,8 @@
   
     
 <div class="article-header">
-  <img src="/img/30_robots_walking.jpg" class="article-banner" itemprop="image">
-  <span class="article-header-caption">Simulation of 30 HRP-2 robots walking in the presence of uncertainties, the goal being to compare the classic TSID controller (left line, gray heads) to the proposed robust TSID controllers: stochastic (central line, green heads) and worst-case (right line, red heads). Some of the simulation results can be seen in the accompanying video.</span>
+  <img src="/img/2016_ijhr_delprete.jpg" class="article-banner" itemprop="image">
+  
 </div>
 
 
@@ -183,7 +183,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Task-Space Inverse Dynamics (TSID) is a well-known optimization-based technique for the control of highly-redundant mechanical systems, such as humanoid robots.  One of  its  main  flaws  is  that  it  does  not  take  into  account  any  of the  uncertainties  affecting  these  systems:  poor  torque  tracking, sensor noises, delays and model uncertainties. As a consequence, the  resulting  control-state  trajectories  may  be  feasible  for  the ideal  system,  but  not  for  the  real  one.  We  propose  to  improve the  robustness  of  TSID  by  modeling  uncertainties  in  the  joint torques,  either  as  Gaussian  random  variables  or  as  bounded deterministic variables. Then we try to immunize the constraints of the system to any—or at least most—of the realizations of these uncertainties.  When  the  resulting  optimization  problem  is  too computationally  expensive  for  online  control,  we  propose  ways to  approximate  it  that  lead  to  computation  times  below  1  ms. Extensive  simulations  in  a  realistic  environment  show  that  the proposed  robust  controllers  greatly  outperform  the  classic  one, even when other unmodeled uncertainties affect the system (e.g. errors in the inertial parameters, delays in the velocity estimates).</p>
+  <p class="pub-abstract" itemprop="text">This paper presents a complete framework (estimation, identification and control) for the implementation of joint-torque control on the humanoid robot HRP-2. While torque control has already been implemented on a few humanoid robots, this is one of the first im- plementations of torque control on a robot that was originally built to be position controlled. The challenge comes from both the hard- ware, which does not include joint-torque sensors, and the software interface, which only provides as command the desired joint angles (no motor current/voltage control). The contribution of the paper is to provide a complete methodology that is very likely to be reproduced as most robots are designed to be controlled only from their position. Additionally, the method is validated by an exhaustive experimental report including a comparison with the original position controller. The torque control is able to better track a reference trajectory while using lower values for the feedback gains (up to 25%). We also show that our controller can accurately track a desired Cartesian force.</p>
 
   
   <div class="row">
@@ -210,7 +210,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9"><em>IEEE Transaction on Robotics</em></div>
+        <div class="col-xs-12 col-sm-9"><em>International Journal of Humanoid Robotics</em></div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -243,13 +243,13 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://hal.archives-ouvertes.fr/hal-01241974/document">
+<a class="btn btn-primary btn-outline" href="https://hal.archives-ouvertes.fr/hal-01136936/document">
   PDF
 </a>
 
 
 
-<a class="btn btn-primary btn-outline" href="https://www.youtube.com/watch?v=pnar5WQY5Vg">
+<a class="btn btn-primary btn-outline" href="https://www.youtube.com/watch?v=WP6ci3nQ9FQ">
   Video
 </a>
 
@@ -270,7 +270,7 @@
 
   <div class="article-style">
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/pnar5WQY5Vg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+  <iframe src="//www.youtube.com/embed/WP6ci3nQ9FQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
  </div>
 
 </div>
@@ -281,12 +281,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://andreadelprete.github.io/publication/2016_icra_delprete/"><span
-      aria-hidden="true">&larr;</span> Fast Algorithms to Test Robust Static Equilibrium for Legged Robots</a></li>
+    <li class="previous"><a href="https://andreadelprete.github.io/publication/2016_tro_robust_inv_dyn/"><span
+      aria-hidden="true">&larr;</span> Robustness to Joint-Torque-Tracking Errors in Task-Space Inverse Dynamics</a></li>
     
 
     
-    <li class="next"><a href="https://andreadelprete.github.io/publication/2016_ijhr_delprete/">Implementing Torque Control with High-Ratio Gear Boxes and without Joint-Torque Sensors <span
+    <li class="next"><a href="https://andreadelprete.github.io/publication/2016_auro_focchi/">High-slope Terrain Locomotion for Torque-Controlled Quadruped Robots <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
