@@ -62,6 +62,15 @@
     </item>
     
     <item>
+      <title>Inertial parameters identification and joint torques estimation with proximal force/torque sensing</title>
+      <link>https://andreadelprete.github.io/publication/2015_icra_traversaro/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2015_icra_traversaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Prioritized Optimal Control: a Hierarchical Differential Dynamic Programming approach</title>
       <link>https://andreadelprete.github.io/publication/2015_icra_romano/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
@@ -81,20 +90,6 @@
   &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
-</description>
-    </item>
-    
-    <item>
-      <title>Prioritized Motion-Force Control of Constrained Fully-Actuated Robots: &#39;Task Space Inverse Dynamics&#39;</title>
-      <link>https://andreadelprete.github.io/publication/2015_ras_delprete/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2015_ras_delprete/</guid>
-      <description>&lt;p&gt;#
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/ngk2dh_jzuw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/p&gt;
 </description>
     </item>
     
@@ -122,6 +117,15 @@
     </item>
     
     <item>
+      <title>Inertial Parameter Identification Including Friction and Motor Dynamics</title>
+      <link>https://andreadelprete.github.io/publication/2013_humanoids_traversaro/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2013_humanoids_traversaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Control of Contact Forces: the Role of Tactile Feedback for Contact Localization</title>
       <link>https://andreadelprete.github.io/publication/2012_iros_delprete/</link>
       <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
@@ -133,6 +137,15 @@
  &lt;/div&gt;
 &lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Contact Force Estimations Using Tactile Sensors and Force / Torque Sensors</title>
+      <link>https://andreadelprete.github.io/publication/2012_hri_delprete/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2012_hri_delprete/</guid>
+      <description></description>
     </item>
     
     <item>

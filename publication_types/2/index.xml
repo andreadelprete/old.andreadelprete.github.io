@@ -67,15 +67,6 @@
     </item>
     
     <item>
-      <title>Inertial parameters identification and joint torques estimation with proximal force/torque sensing</title>
-      <link>https://andreadelprete.github.io/publication/2015_icra_traversaro/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2015_icra_traversaro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>iCub Whole-Body Control through Force Regulation on Rigid Non-Coplanar Contacts</title>
       <link>https://andreadelprete.github.io/publication/2015_frontiers_nori/</link>
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
@@ -90,21 +81,15 @@
     </item>
     
     <item>
-      <title>Inertial Parameter Identification Including Friction and Motor Dynamics</title>
-      <link>https://andreadelprete.github.io/publication/2013_humanoids_traversaro/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>Prioritized Motion-Force Control of Constrained Fully-Actuated Robots: &#39;Task Space Inverse Dynamics&#39;</title>
+      <link>https://andreadelprete.github.io/publication/2015_ras_delprete/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://andreadelprete.github.io/publication/2013_humanoids_traversaro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contact Force Estimations Using Tactile Sensors and Force / Torque Sensors</title>
-      <link>https://andreadelprete.github.io/publication/2012_hri_delprete/</link>
-      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2012_hri_delprete/</guid>
-      <description></description>
+      <guid>https://andreadelprete.github.io/publication/2015_ras_delprete/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;
+&lt;iframe marginheight=&#34;0&#34; marginwidth=&#34;0&#34; frameborder=&#34;0&#34; style=&#34;border: 0&#34; scrolling=&#34;no&#34; width=&#34;400&#34; height=&#34;318&#34; align=&#34;middle&#34; src=&#34;http://audioslides.elsevier.com//ViewerSmall.aspx?source=1&amp;doi=10.1016/j.robot.2014.08.016&#34;&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>
