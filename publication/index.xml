@@ -25,6 +25,15 @@
     </item>
     
     <item>
+      <title>Joint Position and Velocity Bounds in Discrete-Time Acceleration / Torque Control of Robot Manipulators</title>
+      <link>https://andreadelprete.github.io/publication/2017_ral_delprete/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2017_ral_delprete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Robustness to Inertial Parameter Errors for Legged Robots Balancing on Level Ground</title>
       <link>https://andreadelprete.github.io/publication/2017_icinco_giftsun/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
@@ -187,15 +196,6 @@
  &lt;/div&gt;
 &lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Prioritized Optimal Control</title>
-      <link>https://andreadelprete.github.io/publication/2014_icra_delprete/</link>
-      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2014_icra_delprete/</guid>
-      <description></description>
     </item>
     
   </channel>

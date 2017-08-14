@@ -25,6 +25,15 @@
     </item>
     
     <item>
+      <title>Joint Position and Velocity Bounds in Discrete-Time Acceleration / Torque Control of Robot Manipulators</title>
+      <link>https://andreadelprete.github.io/publication/2017_ral_delprete/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2017_ral_delprete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Robustness to Inertial Parameter Errors for Legged Robots Balancing on Level Ground</title>
       <link>https://andreadelprete.github.io/publication/2017_icinco_giftsun/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
@@ -893,20 +902,6 @@ Here&#39;s some important information...
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Addressing Constraint Robustness to Torque Errors in Task-Space Inverse Dynamics</title>
-      <link>https://andreadelprete.github.io/publication/2015_rss_delprete/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2015_rss_delprete/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/ZJpv7K452_Q&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
     </item>
     
   </channel>
