@@ -221,6 +221,15 @@
     
     <url>
     
+      <loc>https://andreadelprete.github.io/publication/2013_thesis_delprete/</loc>
+      <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://andreadelprete.github.io/publication/2012_iros_delprete/</loc>
       <lastmod>2012-10-01T00:00:00+00:00</lastmod>
     </url>
@@ -270,6 +279,16 @@
     
       <loc>https://andreadelprete.github.io/publication_types/7/</loc>
       <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://andreadelprete.github.io/publication_types/8/</loc>
+      <lastmod>2013-03-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
