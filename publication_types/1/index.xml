@@ -53,7 +53,12 @@
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2015_rss_delprete/</guid>
-      <description></description>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/ZJpv7K452_Q&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -76,6 +81,71 @@
   &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>Prioritized Motion-Force Control of Constrained Fully-Actuated Robots: &#39;Task Space Inverse Dynamics&#39;</title>
+      <link>https://andreadelprete.github.io/publication/2015_ras_delprete/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2015_ras_delprete/</guid>
+      <description>&lt;p&gt;#
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/ngk2dh_jzuw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Partial Force Control of Constrained Floating-Base Robots</title>
+      <link>https://andreadelprete.github.io/publication/2014_iros_delprete/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2014_iros_delprete/</guid>
+      <description>&lt;p&gt;#
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prioritized Optimal Control</title>
+      <link>https://andreadelprete.github.io/publication/2014_icra_delprete/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2014_icra_delprete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Control of Contact Forces: the Role of Tactile Feedback for Contact Localization</title>
+      <link>https://andreadelprete.github.io/publication/2012_iros_delprete/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2012_iros_delprete/</guid>
+      <description>&lt;p&gt;#
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Skin Spatial Calibration Using Force/Torque Measurements</title>
+      <link>https://andreadelprete.github.io/publication/2011_iros_delprete/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2011_iros_delprete/</guid>
+      <description>&lt;p&gt;#
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
 </description>
     </item>
     

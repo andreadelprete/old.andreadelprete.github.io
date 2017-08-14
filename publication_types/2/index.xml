@@ -89,5 +89,23 @@
 </description>
     </item>
     
+    <item>
+      <title>Inertial Parameter Identification Including Friction and Motor Dynamics</title>
+      <link>https://andreadelprete.github.io/publication/2013_humanoids_traversaro/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2013_humanoids_traversaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact Force Estimations Using Tactile Sensors and Force / Torque Sensors</title>
+      <link>https://andreadelprete.github.io/publication/2012_hri_delprete/</link>
+      <pubDate>Sun, 01 Jul 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2012_hri_delprete/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

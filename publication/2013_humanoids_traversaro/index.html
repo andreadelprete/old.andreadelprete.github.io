@@ -41,11 +41,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://andreadelprete.github.io/publication/2015_frontiers_nori/">
+  <link rel="canonical" href="https://andreadelprete.github.io/publication/2013_humanoids_traversaro/">
 
   
 
-  <title>iCub Whole-Body Control through Force Regulation on Rigid Non-Coplanar Contacts | Andrea Del Prete</title>
+  <title>Inertial Parameter Identification Including Friction and Motor Dynamics | Andrea Del Prete</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -118,10 +118,10 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   <div class="container pub-title" align="center"> 
-    <h1 itemprop="name">iCub Whole-Body Control through Force Regulation on Rigid Non-Coplanar Contacts</h1>
+    <h1 itemprop="name">Inertial Parameter Identification Including Friction and Motor Dynamics</h1>
     <span class="pub-authors" itemprop="author">
       
-      Francesco Nori, Silvio Traversaro, Jorhabib Eljaik, Francesco Romano, Andrea Del Prete, Daniele Pucci
+      Silvio Traversaro, Andrea Del Prete, Riccardo Muradore, Lorenzo Natale, Francesco Nori
       
     </span>
     <span class="pull-right">
@@ -130,35 +130,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2015_frontiers_nori%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2013_humanoids_traversaro%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=iCub%20Whole-Body%20Control%20through%20Force%20Regulation%20on%20Rigid%20Non-Coplanar%20Contacts&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2015_frontiers_nori%2f"
+         href="https://twitter.com/intent/tweet?text=Inertial%20Parameter%20Identification%20Including%20Friction%20and%20Motor%20Dynamics&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2013_humanoids_traversaro%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2015_frontiers_nori%2f&amp;title=iCub%20Whole-Body%20Control%20through%20Force%20Regulation%20on%20Rigid%20Non-Coplanar%20Contacts"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2013_humanoids_traversaro%2f&amp;title=Inertial%20Parameter%20Identification%20Including%20Friction%20and%20Motor%20Dynamics"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2015_frontiers_nori%2f&amp;title=iCub%20Whole-Body%20Control%20through%20Force%20Regulation%20on%20Rigid%20Non-Coplanar%20Contacts"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2013_humanoids_traversaro%2f&amp;title=Inertial%20Parameter%20Identification%20Including%20Friction%20and%20Motor%20Dynamics"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=iCub%20Whole-Body%20Control%20through%20Force%20Regulation%20on%20Rigid%20Non-Coplanar%20Contacts&amp;body=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2015_frontiers_nori%2f">
+         href="mailto:?subject=Inertial%20Parameter%20Identification%20Including%20Friction%20and%20Motor%20Dynamics&amp;body=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2013_humanoids_traversaro%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -178,7 +178,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">This paper deals with the generation of motion for complex dynamical systems (such as humanoid robots) to achieve several concurrent objectives. Hierarchy of tasks and optimal control are two frameworks commonly used to this aim. The first one specifies control objectives as a number of quadratic functions to be minimized under strict priorities. The second one minimizes an arbitrary user-defined function of the future state of the system, thus considering its evolution in time. Our recent work on prioritized optimal control merges the advantages of both these methods. This paper reformulates the original prioritized optimal control algorithm with the precise goal of improving its computational speed. We extend the dynamic programming method to work with a hierarchy of tasks. We compared our approach in simulation with both our previous algorithm and classical optimal control. The measured computational improvement represents another step towards the application of prioritized optimal control for online model predictive control of humanoid robots. We believe that this could be the key to unlock the (so far unexploited) dynamic capabilities of these mechanical systems.</p>
+  <p class="pub-abstract" itemprop="text">Identification of inertial parameters is fundamental for the implementation of torque-based control in humanoids. At the same time, good models of friction and actuator dynamics are critical for the low-level control of joint torques. We propose a novel method to identify inertial, friction and motor parameters in a single procedure. The identification exploits the measurements of the PWM of the DC motors and a 6-axis force/torque sensor mounted inside the kinematic chain. The partial least-square (PLS) method is used to perform the regression. We identified the inertial, friction and motor parameters of the right arm of the iCub humanoid robot. We verified that the identified model can accurately predict the force/torque sensor measurements and the motor voltages. Moreover, we compared the identified parameters against the CAD parameters, in the prediction of the force/torque sensor measurements. Finally, we showed that the estimated model can effectively detect external contacts, comparing it against a tactile-based contact detection. The presented approach offers some advantages with respect to other state-of-the-art methods, because of its completeness (i.e. it identifies inertial, friction and motor parameters) and simplicity (only one data collection, with no particular requirements).</p>
 
   
   <div class="row">
@@ -205,7 +205,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9"><em>Frontiers in Robotics and AI</em></div>
+        <div class="col-xs-12 col-sm-9"><em>IEEE-RAS International Conference on Humanoid Robots</em></div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -218,7 +218,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          July, 2015
+          July, 2013
         </div>
       </div>
     </div>
@@ -238,15 +238,11 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://journal.frontiersin.org/article/10.3389/frobt.2015.00006">
+<a class="btn btn-primary btn-outline" href="http://arxiv.org/pdf/1410.4410v1.pdf">
   PDF
 </a>
 
 
-
-<a class="btn btn-primary btn-outline" href="https://www.youtube.com/watch?v=jaTEbCsFp_M">
-  Video
-</a>
 
 
 
@@ -263,12 +259,7 @@
 
   <div class="space-below"></div>
 
-  <div class="article-style">
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/jaTEbCsFp_M" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
-
-</div>
+  <div class="article-style"></div>
 
 </div>
 
@@ -276,12 +267,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://andreadelprete.github.io/publication/2015_ras_delprete/"><span
-      aria-hidden="true">&larr;</span> Prioritized Motion-Force Control of Constrained Fully-Actuated Robots: &#39;Task Space Inverse Dynamics&#39;</a></li>
+    <li class="previous"><a href="https://andreadelprete.github.io/publication/2012_iros_delprete/"><span
+      aria-hidden="true">&larr;</span> Control of Contact Forces: the Role of Tactile Feedback for Contact Localization</a></li>
     
 
     
-    <li class="next"><a href="https://andreadelprete.github.io/publication/2015_iros_koenemann/">Whole-body Model-Predictive Control applied to the HRP-2 Humanoid <span
+    <li class="next"><a href="https://andreadelprete.github.io/publication/2014_icra_delprete/">Prioritized Optimal Control <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
