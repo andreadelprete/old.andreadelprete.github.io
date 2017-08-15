@@ -11,6 +11,38 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Experimental Evaluation of Simple Estimators for Humanoid Robots</title>
+      <link>https://andreadelprete.github.io/publication/2017_humanoids_flayols/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2017_humanoids_flayols/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TALOS: A new humanoid research platform targeted for industrial applications</title>
+      <link>https://andreadelprete.github.io/publication/2017_humanoids_stasse/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2017_humanoids_stasse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Kinodynamic steering-method for legged multi-contact locomotion</title>
+      <link>https://andreadelprete.github.io/publication/2017_iros_fernbach/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2017_iros_fernbach/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/l-Bu-HPhsCI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Online Payload Identification for Quadruped Robots</title>
       <link>https://andreadelprete.github.io/publication/2017_iros_tournois/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
@@ -155,46 +187,6 @@
   &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
-</description>
-    </item>
-    
-    <item>
-      <title>iCub Whole-Body Control through Force Regulation on Rigid Non-Coplanar Contacts</title>
-      <link>https://andreadelprete.github.io/publication/2015_frontiers_nori/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2015_frontiers_nori/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/jaTEbCsFp_M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Prioritized Motion-Force Control of Constrained Fully-Actuated Robots: &#39;Task Space Inverse Dynamics&#39;</title>
-      <link>https://andreadelprete.github.io/publication/2015_ras_delprete/</link>
-      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2015_ras_delprete/</guid>
-      <description>&lt;div align=&#34;center&#34;&gt;
-&lt;iframe marginheight=&#34;0&#34; marginwidth=&#34;0&#34; frameborder=&#34;0&#34; style=&#34;border: 0&#34; scrolling=&#34;no&#34; width=&#34;400&#34; height=&#34;318&#34; align=&#34;middle&#34; src=&#34;http://audioslides.elsevier.com//ViewerSmall.aspx?source=1&amp;doi=10.1016/j.robot.2014.08.016&#34;&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Partial Force Control of Constrained Floating-Base Robots</title>
-      <link>https://andreadelprete.github.io/publication/2014_iros_delprete/</link>
-      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2014_iros_delprete/</guid>
-      <description>&lt;p&gt;#
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/p&gt;
 </description>
     </item>
     

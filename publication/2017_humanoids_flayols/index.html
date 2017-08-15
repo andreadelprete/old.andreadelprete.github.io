@@ -54,11 +54,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://andreadelprete.github.io/publication/2017_iros_tournois/">
+  <link rel="canonical" href="https://andreadelprete.github.io/publication/2017_humanoids_flayols/">
 
   
 
-  <title>Online Payload Identification for Quadruped Robots | Andrea Del Prete</title>
+  <title>Experimental Evaluation of Simple Estimators for Humanoid Robots | Andrea Del Prete</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -143,10 +143,10 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   <div class="container pub-title" align="center"> 
-    <h1 itemprop="name">Online Payload Identification for Quadruped Robots</h1>
+    <h1 itemprop="name">Experimental Evaluation of Simple Estimators for Humanoid Robots</h1>
     <span class="pub-authors" itemprop="author">
       
-      Guido Tournois, Michele Focchi, Andrea Del Prete, Romeo Orsolino, Darwin Caldwell, Claudio Semini
+      Thomas Flayols, Andrea Del Prete, Patrick Wensing, Alexis Mifsud, Mehdi Benallegue, Olivier Stasse
       
     </span>
     <span class="pull-right">
@@ -155,35 +155,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_iros_tournois%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_humanoids_flayols%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Online%20Payload%20Identification%20for%20Quadruped%20Robots&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_iros_tournois%2f"
+         href="https://twitter.com/intent/tweet?text=Experimental%20Evaluation%20of%20Simple%20Estimators%20for%20Humanoid%20Robots&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_humanoids_flayols%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_iros_tournois%2f&amp;title=Online%20Payload%20Identification%20for%20Quadruped%20Robots"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_humanoids_flayols%2f&amp;title=Experimental%20Evaluation%20of%20Simple%20Estimators%20for%20Humanoid%20Robots"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_iros_tournois%2f&amp;title=Online%20Payload%20Identification%20for%20Quadruped%20Robots"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_humanoids_flayols%2f&amp;title=Experimental%20Evaluation%20of%20Simple%20Estimators%20for%20Humanoid%20Robots"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Online%20Payload%20Identification%20for%20Quadruped%20Robots&amp;body=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_iros_tournois%2f">
+         href="mailto:?subject=Experimental%20Evaluation%20of%20Simple%20Estimators%20for%20Humanoid%20Robots&amp;body=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2017_humanoids_flayols%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -195,11 +195,6 @@
   </div>
   
     
-<div class="article-header">
-  <img src="/img/hyq_backpack.jpg" class="article-banner" itemprop="image">
-  <span class="article-header-caption">Picture of IIT’s 80 kg HyQ loaded with a 10 kg backpack. The names of the links are shown on the picture itself together with the joints definitions: Hip Adduction-abduction (HAA), Hip Flexion-Extension (HFE), Knee Flexion-Extension (KFE).</span>
-</div>
-
 
 
 </div>
@@ -208,7 +203,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">The identification of inertial parameters is crucial to achieve high-performance model-based control of legged robots. The inertial parameters of the legs are typically not altered during expeditions and therefore are best identified offline. On the other hand, the trunk parameters depend on the modules mounted on the robot, like a motor to provide the hydraulic power, or different sets of cameras for perception. This motivates the use of recursive approaches to identify online the position of the Center of Mass (CoM) of the robot trunk, when a payload change occurs. We propose two such approaches and analyze their robustness in simulation. Furthermore, experimental trials on our 80-kg quadruped robot HyQ show the applicability of our strategies during locomotion to cope with large payload changes that would otherwise severely compromise the balance of the robot.</p>
+  <p class="pub-abstract" itemprop="text">This paper introduces and evaluates a family of new simple estimators to reconstruct the pose and velocity of the floating base. The estimation of the floating-base state is a critical challenge to whole-body control methods that rely on full-state information in high-rate feedback. Although the kinematics of grounded limbs may be used to estimate the pose and velocity of the body, modelling errors from ground irregularity, foot slip, and structural flexibilities limit the utility of estimation from kinematics alone. These difficulties have motivated the development of sensor fusion methods to augment body-mounted IMUs with kinematic measurements. Existing methods often rely on extended Kalman filtering, which lack convergence guarantees and may present difficulties in tuning. This paper proposes two new simplifications to the floating-base state estimation problem that make use of robust off-the-shelf orientation estimators to bootstrap development. Experiments for in-place balance and walking with the HRP-2 show that the simplifications yield results on par with the accuracy reported in the literature for other methods. As further benefits, the structure of the proposed estimators prevents divergence of the estimates, simplifies tuning, and admits efficient computation. These benefits are envisioned to help accelerate the development of baseline estimators in future humanoids.</p>
 
   
   <div class="row">
@@ -235,7 +230,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</div>
+        <div class="col-xs-12 col-sm-9">IEEE/RAS International Conference on Humanoid Robots (submitted to)</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -248,7 +243,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          October, 2017
+          November, 2017
         </div>
       </div>
     </div>
@@ -270,10 +265,6 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://youtu.be/2Pnj5hJVeJM">
-  Video
-</a>
-
 
 
 
@@ -289,12 +280,7 @@
 
   <div class="space-below"></div>
 
-  <div class="article-style">
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/2Pnj5hJVeJM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
-
-</div>
+  <div class="article-style"></div>
 
 </div>
 
@@ -332,13 +318,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://andreadelprete.github.io/publication/2017_ral_delprete/"><span
-      aria-hidden="true">&larr;</span> Joint Position and Velocity Bounds in Discrete-Time Acceleration / Torque Control of Robot Manipulators</a></li>
+    <li class="previous"><a href="https://andreadelprete.github.io/publication/2017_humanoids_stasse/"><span
+      aria-hidden="true">&larr;</span> TALOS: A new humanoid research platform targeted for industrial applications</a></li>
     
 
-    
-    <li class="next"><a href="https://andreadelprete.github.io/publication/2017_iros_fernbach/">A Kinodynamic steering-method for legged multi-contact locomotion <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>

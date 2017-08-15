@@ -7,8 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Andrea Del Prete</copyright>
-    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Experimental Evaluation of Simple Estimators for Humanoid Robots</title>
+      <link>https://andreadelprete.github.io/publication/2017_humanoids_flayols/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2017_humanoids_flayols/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TALOS: A new humanoid research platform targeted for industrial applications</title>
+      <link>https://andreadelprete.github.io/publication/2017_humanoids_stasse/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2017_humanoids_stasse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Kinodynamic steering-method for legged multi-contact locomotion</title>
+      <link>https://andreadelprete.github.io/publication/2017_iros_fernbach/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2017_iros_fernbach/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/l-Bu-HPhsCI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Online Payload Identification for Quadruped Robots</title>
