@@ -11,6 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Zero Step Capturability for Legged Robots in Multi Contact</title>
+      <link>https://andreadelprete.github.io/publication/2018_tro_delprete/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2018_tro_delprete/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/WjVcNeMapN8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Experimental Evaluation of Simple Estimators for Humanoid Robots</title>
       <link>https://andreadelprete.github.io/publication/2017_humanoids_flayols/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
@@ -179,20 +193,6 @@
       
       <guid>https://andreadelprete.github.io/project/example-external-project/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Addressing Constraint Robustness to Torque Errors in Task-Space Inverse Dynamics</title>
-      <link>https://andreadelprete.github.io/publication/2015_rss_delprete/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2015_rss_delprete/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/ZJpv7K452_Q&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
     </item>
     
   </channel>
