@@ -71,6 +71,45 @@
     </item>
     
     <item>
+      <title>Robust Robotics</title>
+      <link>https://andreadelprete.github.io/project/robust-robotics/</link>
+      <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/project/robust-robotics/</guid>
+      <description>
+
+&lt;h1 id=&#34;objectives&#34;&gt;Objectives&lt;/h1&gt;
+
+&lt;p&gt;The goal of this project is to improve performance and reliability by accounting for uncertainties. The current approach in robotics is to neglect uncertainties and just try to compensate for them by means of sensory feedback. This has led us to the paradigm “the faster, the better”, because it is only through fast feedback loops that nowadays robots are able to cope with uncertainties. We believe that identifying uncertainties and taking them into account in our control/planning algorithms is our best chance to overcome this limiting paradigm.&lt;/p&gt;
+
+&lt;h1 id=&#34;previous-work&#34;&gt;Previous Work&lt;/h1&gt;
+
+&lt;h3 id=&#34;robustness-to-joint-torque-tracking-errors&#34;&gt;Robustness to Joint-Torque Tracking Errors&lt;/h3&gt;
+
+&lt;p&gt;My first paper on this subject has been published at RSS 2015 (&lt;a href=&#34;https://andreadelprete.github.io/publication/2015_rss_delprete/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Addressing Constraint Robustness to Torque Errors in Task-Space Inverse Dynamics&amp;rdquo;&lt;/a&gt;), and then its extension in IEEE Transaction of Robotics (&lt;a href=&#34;https://andreadelprete.github.io/publication/2016_tro_robust_inv_dyn/&#34; target=&#34;_blank&#34;&gt;Robustness to Joint-Torque-Tracking Errors in Task-Space Inverse Dynamics&lt;/a&gt;). In these papers we dealt with the robustness of inverse-dynamics control to uncertainties in the joint-torque tracking. The problem was tackled using either a worst-case approach, or a stochastic approach. The resulting controllers have been compared against the classic non-robust approach through thousands of simulations with the humanoid robot HRP-2, empirically proving the superior performance of the proposed approaches.&lt;/p&gt;
+
+&lt;h3 id=&#34;robustness-to-inertial-parameter-errors&#34;&gt;Robustness to Inertial Parameter Errors&lt;/h3&gt;
+
+&lt;p&gt;Later, in 2016, I started investigating the problem of inertial parameter errors (see &lt;a href=&#34;https://andreadelprete.github.io/publication/2017_icinco_giftsun/&#34; target=&#34;_blank&#34;&gt;Robustness to Inertial Parameter Errors for Legged Robots Balancing on Level Ground&lt;/a&gt;). These parameters enter nonlinearly in the robot dynamics equations, which makes them hard to deal with. However, the position and velocity of the center of mass (CoM) of the robot are (almost) linear functions of these parameters, so we can easily model the effect of inertial parameters errors on these quantities. Since standard balancing criteria for legged robots on level ground are based on the CoM position and velocity, we could exploit robust optimization technique to increase the robustness of the robot balancing.&lt;/p&gt;
+
+&lt;h1 id=&#34;future-work&#34;&gt;Future Work&lt;/h1&gt;
+
+&lt;p&gt;The above-mentioned work has just began scratching the surface of this huge problem. This project aims to understand whether robust optimization could be the right tool to account for the countless uncertainties affecting legged robots, such as modeling errors, actuation inaccuracies, estimation uncertainties and delays. Many questions still need an answer, such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What limits us in transferring from simulations to real robots? Is it modeling assumptions / bandwidth / uncertainty?&lt;/li&gt;
+&lt;li&gt;Is robust optimization fast enough for application in control?&lt;/li&gt;
+&lt;li&gt;Can improved robustness outweigh slower control rates?&lt;/li&gt;
+&lt;li&gt;How to model and identify uncertainties?&lt;/li&gt;
+&lt;li&gt;Which uncertainties are the most important to take into account?&lt;/li&gt;
+&lt;li&gt;Are there modeling assumptions that make computation hard, but are not so important on real systems?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some of these questions have arisen during discussion with &lt;a href=&#34;http://www-clmc.usc.edu/Main/AlexanderHerzog&#34; target=&#34;_blank&#34;&gt;Alexander Herzog&lt;/a&gt;, while we were organizing a workshop at ICRA 2016, titled &lt;a href=&#34;http://webdav.tuebingen.mpg.de/robust_mpc_legged_robots/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Robust Optimization-Based Control and Planning for Legged Robots&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Joint Position and Velocity Bounds in Discrete-Time Acceleration / Torque Control of Robot Manipulators</title>
       <link>https://andreadelprete.github.io/publication/2017_ral_delprete/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
@@ -169,30 +208,17 @@
     </item>
     
     <item>
-      <title>Deep Learning</title>
-      <link>https://andreadelprete.github.io/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Addressing Constraint Robustness to Torque Errors in Task-Space Inverse Dynamics</title>
+      <link>https://andreadelprete.github.io/publication/2015_rss_delprete/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://andreadelprete.github.io/project/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+      <guid>https://andreadelprete.github.io/publication/2015_rss_delprete/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/ZJpv7K452_Q&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
 
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>https://andreadelprete.github.io/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/project/example-external-project/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -50,6 +50,15 @@
     
     <url>
     
+      <loc>https://andreadelprete.github.io/project/robust-robotics/</loc>
+      <lastmod>2017-08-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://andreadelprete.github.io/publication/2017_ral_delprete/</loc>
       <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     </url>
@@ -151,24 +160,6 @@
     
       <loc>https://andreadelprete.github.io/publication/2016_icra_delprete/</loc>
       <lastmod>2016-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://andreadelprete.github.io/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://andreadelprete.github.io/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -352,28 +343,8 @@
     
     <url>
     
-      <loc>https://andreadelprete.github.io/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://andreadelprete.github.io/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://andreadelprete.github.io/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-08-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -384,6 +355,26 @@
     
       <loc>https://andreadelprete.github.io/publication_types/</loc>
       <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://andreadelprete.github.io/tags/robust-control/</loc>
+      <lastmod>2017-08-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://andreadelprete.github.io/tags/robust-optimization/</loc>
+      <lastmod>2017-08-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
