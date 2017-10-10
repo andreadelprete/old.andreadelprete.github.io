@@ -48,17 +48,17 @@
     
   
 
-  <link rel="alternate" href="https://andreadelprete.github.io/index.xml" type="application/rss+xml" title="Andrea Del Prete">
-  <link rel="feed" href="https://andreadelprete.github.io/index.xml" type="application/rss+xml" title="Andrea Del Prete">
+  <link rel="alternate" href="https://andreadelprete.github.io/tags/inverse-dynamics/index.xml" type="application/rss+xml" title="Andrea Del Prete">
+  <link rel="feed" href="https://andreadelprete.github.io/tags/inverse-dynamics/index.xml" type="application/rss+xml" title="Andrea Del Prete">
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://andreadelprete.github.io/project/robust-robotics/">
+  <link rel="canonical" href="https://andreadelprete.github.io/tags/inverse-dynamics/">
 
   
 
-  <title>Robust Robotics | Andrea Del Prete</title>
+  <title>Inverse Dynamics | Andrea Del Prete</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -169,114 +169,31 @@
 </nav>
 
 
-<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+
+
+<div class="universal-wrapper">
+
+  <h1>Inverse Dynamics</h1>
+
+  
+
+  
+  
+  <div>
+    <h2><a href="https://andreadelprete.github.io/project/compliant-control/">Compliant Feedback Control of Legged Robots</a></h2>
+    <div class="article-style">
+      
+      The goal of this project is to achieve reliable locomotion behaviors in semi-structured environments with the humanoid robots HRP-2 and Pyrene. This project relies on model-based feedback control techniques, such as inverse-dynamics and model predictive control.
+      
+    </div>
+  </div>
+  
 
   
 
 
-  <div class="article-container">
-
-    <div class="pub-title">
-      <h1 itemprop="name">Robust Robotics</h1>
-      <span class="pub-authors" itemprop="author">&nbsp;</span>
-      <span class="pull-right">
-        
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fproject%2frobust-robotics%2f"
-         target="_blank">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Robust%20Robotics&amp;url=https%3a%2f%2fandreadelprete.github.io%2fproject%2frobust-robotics%2f"
-         target="_blank">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fproject%2frobust-robotics%2f&amp;title=Robust%20Robotics"
-         target="_blank">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fproject%2frobust-robotics%2f&amp;title=Robust%20Robotics"
-         target="_blank">
-        <i class="fa fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Robust%20Robotics&amp;body=https%3a%2f%2fandreadelprete.github.io%2fproject%2frobust-robotics%2f">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
 </div>
-
-
-      </span>
-    </div>
-
-    
-
-    <div class="article-style" itemprop="articleBody">
-      
-
-<h1 id="objectives">Objectives</h1>
-
-<p>The goal of this project is to improve performance and reliability by accounting for uncertainties. The current approach in robotics is to neglect uncertainties and just try to compensate for them by means of sensory feedback. This has led us to the paradigm “the faster, the better”, because it is only through fast feedback loops that nowadays robots are able to cope with uncertainties. We believe that identifying uncertainties and taking them into account in our control/planning algorithms is our best chance to overcome this limiting paradigm.</p>
-
-<h1 id="previous-work">Previous Work</h1>
-
-<h3 id="robustness-to-joint-torque-tracking-errors">Robustness to Joint-Torque Tracking Errors</h3>
-
-<p>My first paper on this subject has been published at RSS 2015 (<a href="https://andreadelprete.github.io/publication/2015_rss_delprete/" target="_blank">&ldquo;Addressing Constraint Robustness to Torque Errors in Task-Space Inverse Dynamics&rdquo;</a>), and then its extension in IEEE Transaction of Robotics (<a href="https://andreadelprete.github.io/publication/2016_tro_robust_inv_dyn/" target="_blank">Robustness to Joint-Torque-Tracking Errors in Task-Space Inverse Dynamics</a>). In these papers we dealt with the robustness of inverse-dynamics control to uncertainties in the joint-torque tracking. The problem was tackled using either a worst-case approach, or a stochastic approach. The resulting controllers have been compared against the classic non-robust approach through thousands of simulations with the humanoid robot HRP-2, empirically proving the superior performance of the proposed approaches.</p>
-
-<h3 id="robustness-to-inertial-parameter-errors">Robustness to Inertial Parameter Errors</h3>
-
-<p>Later, in 2016, I started investigating the problem of inertial parameter errors (see <a href="https://andreadelprete.github.io/publication/2017_icinco_giftsun/" target="_blank">Robustness to Inertial Parameter Errors for Legged Robots Balancing on Level Ground</a>). These parameters enter nonlinearly in the robot dynamics equations, which makes them hard to deal with. However, the position and velocity of the center of mass (CoM) of the robot are (almost) linear functions of these parameters, so we can easily model the effect of inertial parameters errors on these quantities. Since standard balancing criteria for legged robots on level ground are based on the CoM position and velocity, we could exploit robust optimization technique to increase the robustness of the robot balancing.</p>
-
-<h1 id="future-work">Future Work</h1>
-
-<p>The above-mentioned work has just began scratching the surface of this huge problem. This project aims to understand whether robust optimization could be the right tool to account for the countless uncertainties affecting legged robots, such as modeling errors, actuation inaccuracies, estimation uncertainties and delays. Many questions still need an answer, such as:</p>
-
-<ul>
-<li>What limits us in transferring from simulations to real robots? Is it modeling assumptions / bandwidth / uncertainty?</li>
-<li>Is robust optimization fast enough for application in control?</li>
-<li>Can improved robustness outweigh slower control rates?</li>
-<li>How to model and identify uncertainties?</li>
-<li>Which uncertainties are the most important to take into account?</li>
-<li>Are there modeling assumptions that make computation hard, but are not so important on real systems?</li>
-</ul>
-
-<p>Some of these questions have arisen during discussion with <a href="http://www-clmc.usc.edu/Main/AlexanderHerzog" target="_blank">Alexander Herzog</a>, while we were organizing a workshop at ICRA 2016, titled <a href="http://webdav.tuebingen.mpg.de/robust_mpc_legged_robots/" target="_blank">&ldquo;Robust Optimization-Based Control and Planning for Legged Robots&rdquo;</a>.</p>
-
-    </div>
-
-  </div>
-</article>
-
-<div class="container">
-  <nav>
-  <ul class="pager">
-    
-
-    
-    <li class="next"><a href="https://andreadelprete.github.io/project/compliant-control/">Compliant Feedback Control of Legged Robots <span
-      aria-hidden="true">&rarr;</span></a></li>
-    
-  </ul>
-</nav>
-
-</div>
-
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">

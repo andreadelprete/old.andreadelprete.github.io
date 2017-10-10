@@ -32,6 +32,15 @@
     
     <url>
     
+      <loc>https://andreadelprete.github.io/project/compliant-control/</loc>
+      <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://andreadelprete.github.io/publication/2017_iros_fernbach/</loc>
       <lastmod>2017-10-01T00:00:00+00:00</lastmod>
     </url>
@@ -343,8 +352,18 @@
     
     <url>
     
+      <loc>https://andreadelprete.github.io/tags/inverse-dynamics/</loc>
+      <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://andreadelprete.github.io/project/</loc>
-      <lastmod>2017-08-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -385,6 +404,16 @@
     
       <loc>https://andreadelprete.github.io/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://andreadelprete.github.io/tags/torque-control/</loc>
+      <lastmod>2017-10-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
