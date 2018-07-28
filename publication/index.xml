@@ -11,6 +11,20 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title> An Efficient Acyclic Contact Planner for Multiped Robots</title>
+      <link>https://andreadelprete.github.io/publication/2018_tro_tonneau/</link>
+      <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2018_tro_tonneau/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/K3ivZe0AS68&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Zero Step Capturability for Legged Robots in Multi Contact</title>
       <link>https://andreadelprete.github.io/publication/2018_tro_delprete/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
@@ -178,15 +192,6 @@
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2015_icra_traversaro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Prioritized Optimal Control: a Hierarchical Differential Dynamic Programming approach</title>
-      <link>https://andreadelprete.github.io/publication/2015_icra_romano/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2015_icra_romano/</guid>
       <description></description>
     </item>
     
