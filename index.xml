@@ -53,6 +53,15 @@
     </item>
     
     <item>
+      <title>Joint Position and Velocity Bounds in Discrete-Time Acceleration / Torque Control of Robot Manipulators</title>
+      <link>https://andreadelprete.github.io/publication/2017_ral_delprete/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2017_ral_delprete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Experimental Evaluation of Simple Estimators for Humanoid Robots</title>
       <link>https://andreadelprete.github.io/publication/2017_humanoids_flayols/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
@@ -144,15 +153,6 @@
 
 &lt;p&gt;Some of these questions have arisen during discussion with &lt;a href=&#34;http://www-clmc.usc.edu/Main/AlexanderHerzog&#34; target=&#34;_blank&#34;&gt;Alexander Herzog&lt;/a&gt;, while we were organizing a workshop at ICRA 2016, titled &lt;a href=&#34;http://webdav.tuebingen.mpg.de/robust_mpc_legged_robots/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Robust Optimization-Based Control and Planning for Legged Robots&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Joint Position and Velocity Bounds in Discrete-Time Acceleration / Torque Control of Robot Manipulators</title>
-      <link>https://andreadelprete.github.io/publication/2017_ral_delprete/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2017_ral_delprete/</guid>
-      <description></description>
     </item>
     
     <item>
