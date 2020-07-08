@@ -54,11 +54,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://andreadelprete.github.io/publication/2019_preprint_flayols/">
+  <link rel="canonical" href="https://andreadelprete.github.io/publication/2019_humanoids_yeganegi/">
 
   
 
-  <title> Balancing Legged Robots on Visco-Elastic Contacts | Andrea Del Prete</title>
+  <title>Robust Humanoid Locomotion Using Trajectory Optimization and Sample-Efficient Learning | Andrea Del Prete</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -183,10 +183,10 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   <div class="container pub-title" align="center"> 
-    <h1 itemprop="name"> Balancing Legged Robots on Visco-Elastic Contacts</h1>
+    <h1 itemprop="name">Robust Humanoid Locomotion Using Trajectory Optimization and Sample-Efficient Learning</h1>
     <span class="pub-authors" itemprop="author">
       
-      Thomas Flayols, Andrea Del Prete, Majid Khadiv, Nicolas Mansard, Ludovic Righetti
+      Mohammad Hasan Yeganegi, Majid Khadiv, S. Ali A. Moosavian, Jia Jie Zhu, Andrea Del Prete, Ludovic Righetti
       
     </span>
     <span class="pull-right">
@@ -195,35 +195,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2019_preprint_flayols%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2019_humanoids_yeganegi%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=%20Balancing%20Legged%20Robots%20on%20Visco-Elastic%20Contacts&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2019_preprint_flayols%2f"
+         href="https://twitter.com/intent/tweet?text=Robust%20Humanoid%20Locomotion%20Using%20Trajectory%20Optimization%20and%20Sample-Efficient%20Learning&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2019_humanoids_yeganegi%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2019_preprint_flayols%2f&amp;title=%20Balancing%20Legged%20Robots%20on%20Visco-Elastic%20Contacts"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2019_humanoids_yeganegi%2f&amp;title=Robust%20Humanoid%20Locomotion%20Using%20Trajectory%20Optimization%20and%20Sample-Efficient%20Learning"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2019_preprint_flayols%2f&amp;title=%20Balancing%20Legged%20Robots%20on%20Visco-Elastic%20Contacts"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2019_humanoids_yeganegi%2f&amp;title=Robust%20Humanoid%20Locomotion%20Using%20Trajectory%20Optimization%20and%20Sample-Efficient%20Learning"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=%20Balancing%20Legged%20Robots%20on%20Visco-Elastic%20Contacts&amp;body=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2019_preprint_flayols%2f">
+         href="mailto:?subject=Robust%20Humanoid%20Locomotion%20Using%20Trajectory%20Optimization%20and%20Sample-Efficient%20Learning&amp;body=https%3a%2f%2fandreadelprete.github.io%2fpublication%2f2019_humanoids_yeganegi%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -235,6 +235,11 @@
   </div>
   
     
+<div class="article-header">
+  <img src="/img/2019_humanoids_yeganegi.png" class="article-banner" itemprop="image">
+  
+</div>
+
 
 
 </div>
@@ -243,7 +248,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Contacts between robots and environment are often assumed to be rigid for control purposes. This assumption can lead to poor performance when contacts are soft and/or under-damped. However, the problem of balancing on soft contacts has not received much attention in the literature. This paper discusses four approaches to control a legged robot balancing on visco-elastic contacts. Two of these approaches are novel, whereas the other two are taken from the state of the art. Our simulation results show that no approach can outperform all the others in all situations. Performance heavily depends on the contact stiffness and the noises/uncertainties introduced in the simulation. These results sheds light on this challenging problem, while pointing out interesting directions for future investigation.</p>
+  <p class="pub-abstract" itemprop="text">Trajectory optimization (TO) is one of the most powerful tools for generating feasible motions for humanoid robots. However, including uncertainties and stochasticity in the TO problem to generate robust motions can easily lead to intractable problems. Furthermore, since the models used in TO have always some level of abstraction, it can be hard to find a realistic set of uncertainties in the model space. In this paper we leverage a sample-efficient learning technique (Bayesian optimization) to robustify TO for humanoid locomotion. The main idea is to use data from full-body simulations to make the TO stage robust by tuning the cost weights. To this end, we split the TO problem into two phases. The first phase solves a convex optimization problem for generating center of mass (CoM) trajectories based on simplified linear dynamics. The second stage employs iterative Linear-Quadratic Gaussian (iLQG) as a whole-body controller to generate full body control inputs. Then we use Bayesian optimization to find the cost weights to use in the first stage that yields robust performance in the simulation/experiment, in the presence of different disturbance/uncertainties. The results show that the proposed approach is able to generate robust motions for different sets of disturbances and uncertainties.</p>
 
   
   <div class="row">
@@ -270,7 +275,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">Preprint</div>
+        <div class="col-xs-12 col-sm-9"><em>2019 IEEE-RAS 19th International Conference on Humanoid Robots</em></div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -283,7 +288,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          October, 2019
+          July, 2019
         </div>
       </div>
     </div>
@@ -303,7 +308,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://hal.archives-ouvertes.fr/hal-02310082/document">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/pdf/1907.04616.pdf">
   PDF
 </a>
 
@@ -312,10 +317,6 @@
 
 
 
-
-<a class="btn btn-primary btn-outline" href="https://youtu.be/Z8VLUSMM6e8?t=16425">
-  Talk RSS Workshop 2019
-</a>
 
 
 
@@ -328,12 +329,7 @@
 
   <div class="space-below"></div>
 
-  <div class="article-style">
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/Z8VLUSMM6e8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
-
-</div>
+  <div class="article-style"></div>
 
 </div>
 
@@ -371,12 +367,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://andreadelprete.github.io/publication/2019_humanoids_yeganegi/"><span
-      aria-hidden="true">&larr;</span> Robust Humanoid Locomotion Using Trajectory Optimization and Sample-Efficient Learning</a></li>
+    <li class="previous"><a href="https://andreadelprete.github.io/publication/2018_tog_tonneau/"><span
+      aria-hidden="true">&larr;</span> 2PAC: Two Point Attractors for Center of Mass Trajectories in Multi Contact Scenarios</a></li>
     
 
     
-    <li class="next"><a href="https://andreadelprete.github.io/publication/2020_ral_bravo/">One Robot for Many Tasks: Versatile Co-Design Through Stochastic Programming <span
+    <li class="next"><a href="https://andreadelprete.github.io/publication/2019_preprint_flayols/"> Balancing Legged Robots on Visco-Elastic Contacts <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

@@ -11,11 +11,29 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Exploring the limits of a hybrid actuation system through Co-Design</title>
+      <link>https://andreadelprete.github.io/publication/2020_ral_grandesso/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2020_ral_grandesso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Stochastic and Robust MPC for Bipedal Locomotion: A Comparative Study on Robustness and Performance</title>
       <link>https://andreadelprete.github.io/publication/2020_ral_gazar/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2020_ral_gazar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SL1M: Sparse L1-norm Minimization for contact planning on uneven terrain</title>
+      <link>https://andreadelprete.github.io/publication/2020_icra_tonneau/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2020_icra_tonneau/</guid>
       <description></description>
     </item>
     
@@ -40,6 +58,15 @@
  &lt;/div&gt;
 
 </description>
+    </item>
+    
+    <item>
+      <title>Robust Humanoid Locomotion Using Trajectory Optimization and Sample-Efficient Learning</title>
+      <link>https://andreadelprete.github.io/publication/2019_humanoids_yeganegi/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2019_humanoids_yeganegi/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -141,68 +168,6 @@
  &lt;/div&gt;
 
 </description>
-    </item>
-    
-    <item>
-      <title>Online Payload Identification for Quadruped Robots</title>
-      <link>https://andreadelprete.github.io/publication/2017_iros_tournois/</link>
-      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2017_iros_tournois/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/2Pnj5hJVeJM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Robust Robotics</title>
-      <link>https://andreadelprete.github.io/project/robust-robotics/</link>
-      <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/project/robust-robotics/</guid>
-      <description>
-
-&lt;h1 id=&#34;objectives&#34;&gt;Objectives&lt;/h1&gt;
-
-&lt;p&gt;The goal of this project is to improve performance and reliability by accounting for uncertainties. The current approach in robotics is to neglect uncertainties and just try to compensate for them by means of sensory feedback. This has led us to the paradigm “the faster, the better”, because it is only through fast feedback loops that nowadays robots are able to cope with uncertainties. We believe that identifying uncertainties and taking them into account in our control/planning algorithms is our best chance to overcome this limiting paradigm.&lt;/p&gt;
-
-&lt;h1 id=&#34;previous-work&#34;&gt;Previous Work&lt;/h1&gt;
-
-&lt;h3 id=&#34;robustness-to-joint-torque-tracking-errors&#34;&gt;Robustness to Joint-Torque Tracking Errors&lt;/h3&gt;
-
-&lt;p&gt;My first paper on this subject has been published at RSS 2015 (&lt;a href=&#34;https://andreadelprete.github.io/publication/2015_rss_delprete/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Addressing Constraint Robustness to Torque Errors in Task-Space Inverse Dynamics&amp;rdquo;&lt;/a&gt;), and then its extension in IEEE Transaction of Robotics (&lt;a href=&#34;https://andreadelprete.github.io/publication/2016_tro_robust_inv_dyn/&#34; target=&#34;_blank&#34;&gt;Robustness to Joint-Torque-Tracking Errors in Task-Space Inverse Dynamics&lt;/a&gt;). In these papers we dealt with the robustness of inverse-dynamics control to uncertainties in the joint-torque tracking. The problem was tackled using either a worst-case approach, or a stochastic approach. The resulting controllers have been compared against the classic non-robust approach through thousands of simulations with the humanoid robot HRP-2, empirically proving the superior performance of the proposed approaches.&lt;/p&gt;
-
-&lt;h3 id=&#34;robustness-to-inertial-parameter-errors&#34;&gt;Robustness to Inertial Parameter Errors&lt;/h3&gt;
-
-&lt;p&gt;Later, in 2016, I started investigating the problem of inertial parameter errors (see &lt;a href=&#34;https://andreadelprete.github.io/publication/2017_icinco_giftsun/&#34; target=&#34;_blank&#34;&gt;Robustness to Inertial Parameter Errors for Legged Robots Balancing on Level Ground&lt;/a&gt;). These parameters enter nonlinearly in the robot dynamics equations, which makes them hard to deal with. However, the position and velocity of the center of mass (CoM) of the robot are (almost) linear functions of these parameters, so we can easily model the effect of inertial parameters errors on these quantities. Since standard balancing criteria for legged robots on level ground are based on the CoM position and velocity, we could exploit robust optimization technique to increase the robustness of the robot balancing.&lt;/p&gt;
-
-&lt;h1 id=&#34;future-work&#34;&gt;Future Work&lt;/h1&gt;
-
-&lt;p&gt;The above-mentioned work has just began scratching the surface of this huge problem. This project aims to understand whether robust optimization could be the right tool to account for the countless uncertainties affecting legged robots, such as modeling errors, actuation inaccuracies, estimation uncertainties and delays. Many questions still need an answer, such as:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What limits us in transferring from simulations to real robots? Is it modeling assumptions / bandwidth / uncertainty?&lt;/li&gt;
-&lt;li&gt;Is robust optimization fast enough for application in control?&lt;/li&gt;
-&lt;li&gt;Can improved robustness outweigh slower control rates?&lt;/li&gt;
-&lt;li&gt;How to model and identify uncertainties?&lt;/li&gt;
-&lt;li&gt;Which uncertainties are the most important to take into account?&lt;/li&gt;
-&lt;li&gt;Are there modeling assumptions that make computation hard, but are not so important on real systems?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some of these questions have arisen during discussion with &lt;a href=&#34;http://www-clmc.usc.edu/Main/AlexanderHerzog&#34; target=&#34;_blank&#34;&gt;Alexander Herzog&lt;/a&gt;, while we were organizing a workshop at ICRA 2016, titled &lt;a href=&#34;http://webdav.tuebingen.mpg.de/robust_mpc_legged_robots/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Robust Optimization-Based Control and Planning for Legged Robots&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Robustness to Inertial Parameter Errors for Legged Robots Balancing on Level Ground</title>
-      <link>https://andreadelprete.github.io/publication/2017_icinco_giftsun/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2017_icinco_giftsun/</guid>
-      <description></description>
     </item>
     
   </channel>

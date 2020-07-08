@@ -11,11 +11,29 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Exploring the limits of a hybrid actuation system through Co-Design</title>
+      <link>https://andreadelprete.github.io/publication/2020_ral_grandesso/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2020_ral_grandesso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Stochastic and Robust MPC for Bipedal Locomotion: A Comparative Study on Robustness and Performance</title>
       <link>https://andreadelprete.github.io/publication/2020_ral_gazar/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2020_ral_gazar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SL1M: Sparse L1-norm Minimization for contact planning on uneven terrain</title>
+      <link>https://andreadelprete.github.io/publication/2020_icra_tonneau/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2020_icra_tonneau/</guid>
       <description></description>
     </item>
     
@@ -40,6 +58,15 @@
  &lt;/div&gt;
 
 </description>
+    </item>
+    
+    <item>
+      <title>Robust Humanoid Locomotion Using Trajectory Optimization and Sample-Efficient Learning</title>
+      <link>https://andreadelprete.github.io/publication/2019_humanoids_yeganegi/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2019_humanoids_yeganegi/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -146,48 +173,6 @@
       
       <guid>https://andreadelprete.github.io/publication/2017_icinco_giftsun/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Regularized Hierarchical Differential Dynamic Programming</title>
-      <link>https://andreadelprete.github.io/publication/2017_tro_geisert/</link>
-      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2017_tro_geisert/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/BqAOmDvlB2Q&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>High-slope Terrain Locomotion for Torque-Controlled Quadruped Robots</title>
-      <link>https://andreadelprete.github.io/publication/2016_auro_focchi/</link>
-      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2016_auro_focchi/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/qOvtbPryygs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Implementing Torque Control with High-Ratio Gear Boxes and without Joint-Torque Sensors</title>
-      <link>https://andreadelprete.github.io/publication/2016_ijhr_delprete/</link>
-      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2016_ijhr_delprete/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/WP6ci3nQ9FQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
     </item>
     
   </channel>
