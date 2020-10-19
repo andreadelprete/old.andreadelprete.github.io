@@ -11,6 +11,15 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Fast and Accurate Multi-Body Simulation with Stiff Viscoelastic Contacts</title>
+      <link>https://andreadelprete.github.io/publication/2021_ral_hammoud/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2021_ral_hammoud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Exploring the limits of a hybrid actuation system through Co-Design</title>
       <link>https://andreadelprete.github.io/publication/2020_ral_grandesso/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
@@ -164,15 +173,6 @@
  &lt;/div&gt;
 
 </description>
-    </item>
-    
-    <item>
-      <title>Robustness to Inertial Parameter Errors for Legged Robots Balancing on Level Ground</title>
-      <link>https://andreadelprete.github.io/publication/2017_icinco_giftsun/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2017_icinco_giftsun/</guid>
-      <description></description>
     </item>
     
   </channel>
