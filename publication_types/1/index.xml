@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Andrea Del Prete</copyright>
-    <lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Computational design of energy-efficient legged robots: Optimizing for size and actuators</title>
+      <link>https://andreadelprete.github.io/publication/2021_icra_fadini/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2021_icra_fadini/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Experimental Evaluation of Simple Estimators for Humanoid Robots</title>
@@ -163,20 +172,6 @@
       <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2012_iros_delprete/</guid>
-      <description>&lt;p&gt;#
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Skin Spatial Calibration Using Force/Torque Measurements</title>
-      <link>https://andreadelprete.github.io/publication/2011_iros_delprete/</link>
-      <pubDate>Sat, 01 Oct 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2011_iros_delprete/</guid>
       <description>&lt;p&gt;#
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;

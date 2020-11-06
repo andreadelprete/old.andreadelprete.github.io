@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Computational design of energy-efficient legged robots: Optimizing for size and actuators</title>
+      <link>https://andreadelprete.github.io/publication/2021_icra_fadini/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2021_icra_fadini/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fast and Accurate Multi-Body Simulation with Stiff Viscoelastic Contacts</title>
       <link>https://andreadelprete.github.io/publication/2021_ral_hammoud/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
@@ -153,15 +162,6 @@
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2017_humanoids_stasse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Compliant Feedback Control of Legged Robots</title>
-      <link>https://andreadelprete.github.io/project/compliant-control/</link>
-      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/project/compliant-control/</guid>
       <description></description>
     </item>
     
