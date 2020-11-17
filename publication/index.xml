@@ -11,6 +11,15 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Solving Footstep Planning as a Feasibility Problem using L1-norm Minimization</title>
+      <link>https://andreadelprete.github.io/publication/2021_ral_daeun/</link>
+      <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2021_ral_daeun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Computational design of energy-efficient legged robots: Optimizing for size and actuators</title>
       <link>https://andreadelprete.github.io/publication/2021_icra_fadini/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
@@ -61,15 +70,6 @@
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2020_icra_tonneau/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Solving Footstep Planning as a Feasibility Problem using L1-norm Minimization</title>
-      <link>https://andreadelprete.github.io/publication/2021_ral_daeun/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2021_ral_daeun/</guid>
       <description></description>
     </item>
     
