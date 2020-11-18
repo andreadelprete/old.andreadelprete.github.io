@@ -11,12 +11,26 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Editorial: bridging the gap between the lab and the real world: future perspectives for legged robots</title>
+      <link>https://andreadelprete.github.io/publication/2020_frontiers_focchi/</link>
+      <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2020_frontiers_focchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Solving Footstep Planning as a Feasibility Problem using L1-norm Minimization</title>
       <link>https://andreadelprete.github.io/publication/2021_ral_daeun/</link>
       <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2021_ral_daeun/</guid>
-      <description></description>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/3AfBM8K0wts&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -34,7 +48,12 @@
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2021_ral_hammoud/</guid>
-      <description></description>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/GaXoBuVczEw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -83,7 +102,7 @@
     </item>
     
     <item>
-      <title> Balancing Legged Robots on Visco-Elastic Contacts</title>
+      <title>Balancing Legged Robots on Visco-Elastic Contacts</title>
       <link>https://andreadelprete.github.io/publication/2019_preprint_flayols/</link>
       <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
       
@@ -129,7 +148,7 @@
     </item>
     
     <item>
-      <title> An Efficient Acyclic Contact Planner for Multiped Robots</title>
+      <title>An Efficient Acyclic Contact Planner for Multiped Robots</title>
       <link>https://andreadelprete.github.io/publication/2018_tro_tonneau/</link>
       <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
       
@@ -154,15 +173,6 @@
  &lt;/div&gt;
 
 </description>
-    </item>
-    
-    <item>
-      <title>Joint Position and Velocity Bounds in Discrete-Time Acceleration / Torque Control of Robot Manipulators</title>
-      <link>https://andreadelprete.github.io/publication/2017_ral_delprete/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2017_ral_delprete/</guid>
-      <description></description>
     </item>
     
   </channel>
