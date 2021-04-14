@@ -11,12 +11,35 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Computational design of energy-efficient legged robots: Optimizing for size and actuators</title>
+      <link>https://andreadelprete.github.io/publication/2021_icra_fadini/</link>
+      <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2021_icra_fadini/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Exploring the limits of a redundant actuation system through Co-Design</title>
       <link>https://andreadelprete.github.io/publication/2021_access_grandesso/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2021_access_grandesso/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient and Accurate Multi-Body Simulation with Stiff Viscoelastic Contacts</title>
+      <link>https://andreadelprete.github.io/publication/2021_ral_hammoud/</link>
+      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2021_ral_hammoud/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/GaXoBuVczEw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -51,29 +74,6 @@
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/3AfBM8K0wts&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Computational design of energy-efficient legged robots: Optimizing for size and actuators</title>
-      <link>https://andreadelprete.github.io/publication/2021_icra_fadini/</link>
-      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2021_icra_fadini/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Efficient and Accurate Multi-Body Simulation with Stiff Viscoelastic Contacts</title>
-      <link>https://andreadelprete.github.io/publication/2021_ral_hammoud/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2021_ral_hammoud/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/GaXoBuVczEw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
 </description>

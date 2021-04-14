@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Andrea Del Prete</copyright>
-    <lastBuildDate>Tue, 17 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Oct 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Computational design of energy-efficient legged robots: Optimizing for size and actuators</title>
+      <link>https://andreadelprete.github.io/publication/2021_icra_fadini/</link>
+      <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2021_icra_fadini/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Solving Footstep Planning as a Feasibility Problem using L1-norm Minimization</title>
@@ -22,15 +31,6 @@
  &lt;/div&gt;
 
 </description>
-    </item>
-    
-    <item>
-      <title>Computational design of energy-efficient legged robots: Optimizing for size and actuators</title>
-      <link>https://andreadelprete.github.io/publication/2021_icra_fadini/</link>
-      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2021_icra_fadini/</guid>
-      <description></description>
     </item>
     
     <item>
