@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Exploring the limits of a redundant actuation system through Co-Design</title>
+      <link>https://andreadelprete.github.io/publication/2021_access_grandesso/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2021_access_grandesso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Reactive Balance Control for Legged Robots under Visco-Elastic Contacts</title>
       <link>https://andreadelprete.github.io/publication/2020_applsci_flayols/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
@@ -57,7 +66,7 @@
     </item>
     
     <item>
-      <title>Fast and Accurate Multi-Body Simulation with Stiff Viscoelastic Contacts</title>
+      <title>Efficient and Accurate Multi-Body Simulation with Stiff Viscoelastic Contacts</title>
       <link>https://andreadelprete.github.io/publication/2021_ral_hammoud/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
       
@@ -76,15 +85,6 @@
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2021_tro_yeganegi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exploring the limits of a hybrid actuation system through Co-Design</title>
-      <link>https://andreadelprete.github.io/publication/2020_ral_grandesso/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2020_ral_grandesso/</guid>
       <description></description>
     </item>
     
