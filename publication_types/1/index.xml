@@ -20,17 +20,30 @@
     </item>
     
     <item>
-      <title>Solving Footstep Planning as a Feasibility Problem using L1-norm Minimization</title>
-      <link>https://andreadelprete.github.io/publication/2021_ral_daeun/</link>
-      <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Stochastic and Robust MPC for Bipedal Locomotion: A Comparative Study on Robustness and Performance</title>
+      <link>https://andreadelprete.github.io/publication/2021_humanoids_gazar/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://andreadelprete.github.io/publication/2021_ral_daeun/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/3AfBM8K0wts&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
+      <guid>https://andreadelprete.github.io/publication/2021_humanoids_gazar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SL1M: Sparse L1-norm Minimization for contact planning on uneven terrain</title>
+      <link>https://andreadelprete.github.io/publication/2020_icra_tonneau/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2020_icra_tonneau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Humanoid Locomotion Using Trajectory Optimization and Sample-Efficient Learning</title>
+      <link>https://andreadelprete.github.io/publication/2019_humanoids_yeganegi/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2019_humanoids_yeganegi/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -160,24 +173,6 @@
  &lt;/div&gt;
 &lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Prioritized Optimal Control</title>
-      <link>https://andreadelprete.github.io/publication/2014_icra_delprete/</link>
-      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2014_icra_delprete/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inertial Parameter Identification Including Friction and Motor Dynamics</title>
-      <link>https://andreadelprete.github.io/publication/2013_humanoids_traversaro/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2013_humanoids_traversaro/</guid>
-      <description></description>
     </item>
     
   </channel>

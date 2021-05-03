@@ -7,16 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Andrea Del Prete</copyright>
-    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication_types/2/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Stochastic and Robust MPC for Bipedal Locomotion: A Comparative Study on Robustness and Performance</title>
-      <link>https://andreadelprete.github.io/publication/2021_humanoids_gazar/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <title>Solving Footstep Planning as a Feasibility Problem using L1-norm Minimization</title>
+      <link>https://andreadelprete.github.io/publication/2021_ral_daeun/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://andreadelprete.github.io/publication/2021_humanoids_gazar/</guid>
-      <description></description>
+      <guid>https://andreadelprete.github.io/publication/2021_ral_daeun/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/3AfBM8K0wts&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
     </item>
     
     <item>
@@ -75,29 +80,11 @@
     </item>
     
     <item>
-      <title>SL1M: Sparse L1-norm Minimization for contact planning on uneven terrain</title>
-      <link>https://andreadelprete.github.io/publication/2020_icra_tonneau/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2020_icra_tonneau/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>One Robot for Many Tasks: Versatile Co-Design Through Stochastic Programming</title>
       <link>https://andreadelprete.github.io/publication/2020_ral_bravo/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2020_ral_bravo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robust Humanoid Locomotion Using Trajectory Optimization and Sample-Efficient Learning</title>
-      <link>https://andreadelprete.github.io/publication/2019_humanoids_yeganegi/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2019_humanoids_yeganegi/</guid>
       <description></description>
     </item>
     
@@ -175,6 +162,34 @@
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/qOvtbPryygs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Implementing Torque Control with High-Ratio Gear Boxes and without Joint-Torque Sensors</title>
+      <link>https://andreadelprete.github.io/publication/2016_ijhr_delprete/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2016_ijhr_delprete/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/WP6ci3nQ9FQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Robustness to Joint-Torque-Tracking Errors in Task-Space Inverse Dynamics</title>
+      <link>https://andreadelprete.github.io/publication/2016_tro_robust_inv_dyn/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2016_tro_robust_inv_dyn/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/pnar5WQY5Vg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
 </description>
