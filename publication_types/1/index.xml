@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Andrea Del Prete</copyright>
-    <lastBuildDate>Sat, 30 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Feb 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Simulation aided co-design for robust robot optimization</title>
+      <link>https://andreadelprete.github.io/publication/2022_ral_fadini/</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2022_ral_fadini/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Computational design of energy-efficient legged robots: Optimizing for size and actuators</title>
@@ -158,20 +167,6 @@
   &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
-</description>
-    </item>
-    
-    <item>
-      <title>Partial Force Control of Constrained Floating-Base Robots</title>
-      <link>https://andreadelprete.github.io/publication/2014_iros_delprete/</link>
-      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2014_iros_delprete/</guid>
-      <description>&lt;p&gt;#
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/p&gt;
 </description>
     </item>
     
