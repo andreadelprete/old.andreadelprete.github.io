@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Andrea Del Prete</copyright>
-    <lastBuildDate>Mon, 28 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 May 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Nonlinear Stochastic Trajectory Optimization for Centroidal Momentum Motion Generation of Legged Robots</title>
+      <link>https://andreadelprete.github.io/publication/2022_isrr_gazar/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2022_isrr_gazar/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Simulation aided co-design for robust robot optimization</title>
@@ -154,20 +163,6 @@
       
       <guid>https://andreadelprete.github.io/publication/2015_icra_romano/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Whole-body Model-Predictive Control applied to the HRP-2 Humanoid</title>
-      <link>https://andreadelprete.github.io/publication/2015_iros_koenemann/</link>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2015_iros_koenemann/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/vI-8xgJ6ct0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-</description>
     </item>
     
   </channel>

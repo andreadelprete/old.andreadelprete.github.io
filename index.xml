@@ -11,11 +11,47 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>CACTO: Continuous Actor-Critic with Trajectory Optimization-Towards global optimality</title>
+      <link>https://andreadelprete.github.io/publication/2023_ral_grandesso/</link>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2023_ral_grandesso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CLIO: a novel robotic solution for exploration and rescue missions in hostile mountain environments</title>
+      <link>https://andreadelprete.github.io/publication/2023_icra_focchi/</link>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2023_icra_focchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Robust Satisfaction of Joint Position and Velocity Bounds in Discrete-Time Acceleration Control of Robot Manipulators</title>
       <link>https://andreadelprete.github.io/publication/2023_ral_zanolli/</link>
       <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2023_ral_zanolli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meeting sustainable development goals via robotics and autonomous systems</title>
+      <link>https://andreadelprete.github.io/publication/2022_nature_guenat/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2022_nature_guenat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlinear Stochastic Trajectory Optimization for Centroidal Momentum Motion Generation of Legged Robots</title>
+      <link>https://andreadelprete.github.io/publication/2022_isrr_gazar/</link>
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreadelprete.github.io/publication/2022_isrr_gazar/</guid>
       <description></description>
     </item>
     
@@ -121,42 +157,6 @@
       <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://andreadelprete.github.io/publication/2020_frontiers_focchi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SL1M: Sparse L1-norm Minimization for contact planning on uneven terrain</title>
-      <link>https://andreadelprete.github.io/publication/2020_icra_tonneau/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2020_icra_tonneau/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>One Robot for Many Tasks: Versatile Co-Design Through Stochastic Programming</title>
-      <link>https://andreadelprete.github.io/publication/2020_ral_bravo/</link>
-      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2020_ral_bravo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robust Humanoid Locomotion Using Trajectory Optimization and Sample-Efficient Learning</title>
-      <link>https://andreadelprete.github.io/publication/2019_humanoids_yeganegi/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/publication/2019_humanoids_yeganegi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Memory of Motion (Memmo)</title>
-      <link>https://andreadelprete.github.io/project/memmo/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://andreadelprete.github.io/project/memmo/</guid>
       <description></description>
     </item>
     
